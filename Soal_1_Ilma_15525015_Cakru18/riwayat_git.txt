@@ -1,0 +1,8 @@
+* 580ac9d remove riwayat_git.txt
+* 6367612 add riwayat git
+*   cafae53 resolve merge conflict
+|\  
+| * ef3c13c add version 1 comment
+* | 1a611dc add version 2 comment
+|/  
+* fdea4d9 inisiasi github
