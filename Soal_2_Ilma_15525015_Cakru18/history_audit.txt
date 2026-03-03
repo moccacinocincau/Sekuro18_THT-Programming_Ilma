@@ -1,0 +1,30 @@
+   12  htop
+   13  lsb_release -a
+   14  wsl
+   15  cd ~/recovery_ops
+   16  code .
+   17  history | tail -n 30 > history_audit.txt
+   18  sudo apt update
+   19  sudo apt install build-essential
+   20  sudo apt install build-essential -y
+   21  which g++
+   22  g++ --version
+   23  cd ~/recovery_ops
+   24  ls
+   25  cat recovered_sector.txt
+   26  history | tail -n 30 > history_audit.txt
+   27  rm history_audit.txt
+   28  sudo apt update
+   29  sudo apt install build-essential -y
+   30  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+   31  cat compiler_trace.log
+   32  mkdir recovery_ops
+   33  cd recovery_ops
+   34  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+   35  ls
+   36  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+   37  cat recovered_sector.txt
+   38  rm system_raw.txt
+   39  ls
+   40  code .
+   41  history | tail -n 30 > history_audit.txt
